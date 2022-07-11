@@ -1,0 +1,16 @@
+/* CSS for the Navbar  */
+
+ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    color: #fff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 10px 20px;
+}
