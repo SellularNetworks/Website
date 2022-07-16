@@ -2,13 +2,14 @@ import './App.css';
 import Career from "./components/Career.js";
 import Navbar from "./components/Navbar.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ReactDOM from "react-dom/client";
+
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Footer from './components/Footer';
+import Footer from "./components/Footer.js"
+
 
 function App() {
   return (
@@ -20,7 +21,10 @@ function App() {
 
 
       </Routes>
-        <Footer />
+      <Routes> 
+        <Footer/>
+      </Routes>
+        
       </BrowserRouter>
   );
 }
