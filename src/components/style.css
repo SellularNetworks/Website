@@ -1,16 +1,36 @@
-/* CSS for the Navbar  */
-
-ul{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.Logo
+{
+    height: 50px;
+    width: 50px;
+}
+.masked-custom{
+    background-color: white;
+    backdrop-filter: blur(5px);
+    height: 60px;
+}
+.li-tag:hover{
+    text-decoration: underline;
+    text-decoration-color: #1EBAA3;
+}
+.li-tag{
+    color: #1EBAA3;
     list-style: none;
+    display: inline;
+    flex-direction: row;
+    cursor: pointer;
+    text-align: right;
+    padding-left: 400px;
 }
-ul li{
-    display: inline-block;
-    color: #fff;
-    font-size: 1em;
-    text-decoration: none;
-    padding: 10px 20px;
+.logo-text{
+    color: #1EBAA3;
+    padding-left: 8px;
+    cursor: pointer;
 }
+.typewriter-text{
+    height: auto;
+    width: 100px;
+}
+
+
+
+
