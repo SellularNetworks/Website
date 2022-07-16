@@ -1,3 +1,4 @@
+/* css for the navbar  */
 .Logo
 {
     height: 50px;
@@ -26,11 +27,70 @@
     padding-left: 8px;
     cursor: pointer;
 }
-.typewriter-text{
-    height: auto;
-    width: 100px;
+/* CSS For Footer */
+.logo{
+    height: 35px;
+    width: 35px;
+    box-shadow: #0FC5B0;   
 }
-
-
-
-
+    
+footer{
+    background-color: #1A202C;
+}
+.footer-text{
+    color: #4A5568;
+}
+.fs{
+    padding-top: 2%;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color:  #ffffff;
+}
+.fs:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color:#0FC5B0;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.fs:hover{
+    color: #fff;
+}
+.fs:hover:after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.contact-logo{
+    width: 20px;
+    
+    
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+    transition: 0.5s;
+   
+}
+.contact-logo:hover{
+    transform: translateY(-4px);
+    
+}
+.media-icon-box{
+    align-items: center;
+    border-radius: 200%;
+    padding: 9px;
+}
+.media-icon-box:hover{
+    background-color: #0FC5B0;
+    padding-bottom: 12px;
+    padding-left: 16px;
+}
+#footer-ending{
+    color: #4A5568;
+}
+.list-link{
+    marker: none;
+}

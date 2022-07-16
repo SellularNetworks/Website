@@ -18,7 +18,9 @@ function App() {
       <Routes>
         <Route exact path="/career"  element={<Career/>}/>
       </Routes>
-      <Footer/>
+        <Footer/>
+
+        
       </BrowserRouter>
   );
 }

@@ -3,7 +3,7 @@ import "./style.css";
 import Sellular from "./Sellular 4.png";
 import TypeWriterEffect from "react-typewriter-effect"; 
 
-function Navbar()
+export default function Navbar()
 {
     return(
   <nav className="masked-custom navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-0">
@@ -54,5 +54,3 @@ function Navbar()
 </nav>
 );
 }
-
-export default Navbar
